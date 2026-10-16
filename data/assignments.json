@@ -1,0 +1,19 @@
+[
+  {
+    "assignment_id": "assignment-01",
+    "title": "Сумма квадратов неотрицательных чисел",
+    "allowed_template": "from typing import Iterable\n",
+    "requirements": [
+      "Наличие функции solve",
+      "Аннотации типов параметров и результата"
+    ]
+  },
+  {
+    "assignment_id": "assignment-02",
+    "title": "Подсчёт уникальных слов",
+    "allowed_template": "from collections import Counter\n\ndef count_words(text: str) -> int:\n",
+    "requirements": [
+      "Наличие функции count_words"
+    ]
+  }
+]
