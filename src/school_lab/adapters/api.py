@@ -21,7 +21,7 @@ def _schema_error(message: str, field: str | None = None) -> PydanticCustomError
     return PydanticCustomError("schema_error", message, {"field": field} if field else None)
 
 
-# входные модели (DTO) 
+# входные модели (DTO)
 
 class DeclarationIn(BaseModel):
     model_config = STRICT
@@ -152,7 +152,7 @@ def validate_payload(raw: object) -> Submission:
         raise to_submission_error(exc) from exc
 
 
-# тестовый адаптер вместо HTTP 
+# тестовый адаптер вместо HTTP
 
 STATUS_BY_CODE: Mapping[ErrorCode, int] = MappingProxyType({
     "invalid_json": 400,

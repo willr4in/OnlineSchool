@@ -24,7 +24,7 @@ school-lab import data/invalid_submissions.jsonl
 school-lab analyze data/submissions.jsonl --assignments data/assignments.json
 school-lab analyze data/submissions.jsonl --assignments data/assignments.json --analyzer template
 
-python examples/defense_demo.py     # сценарий защиты: 201 → 200 → 409, импорт с ошибками, третий анализатор
+python examples/example.py     # 201 → 200 → 409, импорт с ошибками, третий анализатор
 ```
 
 Коды завершения CLI: `0` - всё успешно, `1` - есть ошибки отдельных строк/анализов

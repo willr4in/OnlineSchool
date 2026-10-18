@@ -33,7 +33,7 @@ class Assignment:
     requirements: tuple[str, ...]
 
 
-# отчёт анализа 
+# отчёт анализа
 
 FindingKind = Literal["similarity", "rubric_feedback", "processing_error"]
 EvidenceField = Literal["text", "code"]

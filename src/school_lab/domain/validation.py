@@ -88,7 +88,7 @@ def validate_timestamp(value: object, name: str = "submitted_at") -> str:
     return text
 
 
-# сдача 
+# сдача
 
 def parse_declaration(raw: object) -> AIDeclaration:
     data = require_object(raw, "ai_declaration")

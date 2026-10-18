@@ -77,7 +77,7 @@ python -m pytest
 ruff check .               
 mypy src   
 
-python examples/defense_demo.py   
+python examples/example.py   
 ```
 
 ## 3. Измерения
